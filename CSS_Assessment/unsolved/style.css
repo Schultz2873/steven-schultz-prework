@@ -1,0 +1,50 @@
+body {
+  margin: 0;
+  line-height: 1.5;
+}
+
+nav {
+  width: 100%;
+  text-align: center;
+  background-color: gray;
+}
+
+div section {
+  margin-top: 3%;
+  display: inline-block;
+}
+
+.left{
+  float: left;
+  width: 50%;
+  height: 450px;
+  text-align: center;
+  background-color: blue;
+}
+
+.left p {
+  height: 450px;
+  padding-top: 225px;
+}
+
+.right{
+  float: right;
+  width: 25%;
+  height: 450px;
+  text-align: center;
+  vertical-align: middle;
+  background-color: red;
+}
+
+.right p {
+  height: 450px;
+  padding-top: 225px;
+}
+
+.footer {
+  float: bottom;
+  width: 100%;
+  background-color: green;
+  text-align: center;
+}
+

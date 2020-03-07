@@ -3,10 +3,21 @@ body {
   line-height: 1.5;
 }
 
-nav {
+.fixed-header, .fixed-footer {
   width: 100%;
   text-align: center;
+  position: fixed;
+}
+
+.fixed-header {
+  top: 0;
   background-color: gray;
+
+}
+
+.fixed-footer {
+  bottom: 0;
+  background-color: green;
 }
 
 div section {
@@ -14,37 +25,26 @@ div section {
   display: inline-block;
 }
 
-.left{
-  float: left;
-  width: 50%;
+.left, .right{
   height: 450px;
   text-align: center;
-  background-color: blue;
-}
 
-.left p {
-  height: 450px;
-  padding-top: 225px;
+}
+.left {
+  float: left;
+  width: 50%;
+  background-color: blue;
 }
 
 .right{
   float: right;
   width: 25%;
-  height: 450px;
-  text-align: center;
-  vertical-align: middle;
   background-color: red;
 }
 
-.right p {
-  height: 450px;
-  padding-top: 225px;
+.left p, .right p {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%);
 }
-
-.footer {
-  float: bottom;
-  width: 100%;
-  background-color: green;
-  text-align: center;
-}
-

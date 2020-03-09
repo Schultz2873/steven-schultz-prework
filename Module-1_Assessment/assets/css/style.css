@@ -1,4 +1,65 @@
 body {
-    background-image: url("assets/images/hypnotize.png");
+    background-image: url("../images/hypnotize.png");
     background-repeat: repeat;
+}
+
+header {
+    width: 100vw;
+    background-color: #ffffff;
+}
+li{
+    list-style-type: none;
+    font-size: 2.5vh;
+    position: relative;
+    right: 75%;
+}
+
+a {
+    color: black;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+
+}
+.navbar-brand {
+    position: relative;
+    left: 16%;
+    color: white;
+    background-color: #4aaaa5;
+    font-size: 5vh;
+    padding: 1vh;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-decoration: none;
+}
+
+.card-title {
+    font-size: 5vh;
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+
+}
+.profile-image {
+    float: left;
+}
+#profile-pic {
+    height: 250px;
+    width: 250px;
+    padding: 15px;
+    float: left;
+}
+
+#portfolio_image {
+    height: 250px;
+    width: 250px;
+    padding: 15px;
+}
+
+.thumbnail {
+    position: relative;
+}
+
+.caption {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+    background-color: #4aaaa5;
 }

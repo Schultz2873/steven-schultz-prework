@@ -11,28 +11,27 @@
 
     <link rel="stylesheet" href="assets/css/style.css">
 
-    <title>Hello, world!</title>
+
+    <title>About Me</title>
 </head>
 <body>
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-2"></div>
-            <a class="navbar-brand" href="#">Steven Schultz</a>
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="contact.html">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
+<header>
+    <nav class="navbar">
+        <a class="navbar-brand" href="index.html">Steven Schultz</a>
+        <ul class="nav justify-content-end">
+            <li class="nav-item">
+                <a class="nav-link active" href="index.html">About Me</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="portfolio.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<br>
 
 <div class="container">
     <div class="row">
@@ -40,12 +39,21 @@
         <div class="col-10">
             <div class="card">
                 <div class="card-body">
-                    <h3 class="card-title">About me</h3>
+                    <h3 class="card-title">About Me</h3>
                     <hr>
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                        card's content.</p>
-                    <a href="#" class="card-link">Card link</a>
-                    <a href="#" class="card-link">Another link</a>
+                    <div class="container">
+                        <p><img id="profile-pic" src="assets/images/profile_picture.jpg" alt="Profile Picture"
+                                class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
+                            imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula
+                            venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce
+                            luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in
+                            odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis
+                            dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet
+                            sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue
+                            eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis
+                            diam velit.</p>
+
+                    </div>
                 </div>
             </div>
         </div>

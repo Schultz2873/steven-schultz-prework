@@ -1,0 +1,8 @@
+body {
+    background-image: url("../images/halloween_dingbats_on_white.jpg");
+    background-repeat: repeat;
+}
+.card-title, p, b {
+    text-align: center;
+}
+

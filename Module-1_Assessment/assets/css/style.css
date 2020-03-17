@@ -6,6 +6,7 @@ body {
 header {
     width: 100vw;
     background-color: #ffffff;
+
 }
 
 a {
@@ -18,7 +19,7 @@ p {
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;;
 }
 
-.navbar-brand {
+.navbar .navbar-brand {
     position: relative;
     left: 16%;
     color: white;
@@ -28,9 +29,6 @@ p {
     font-family: 'Georgia', Times, Times New Roman, serif;
     text-decoration: none;
 }
-
-
-
 
 .card-title {
     font-size: 5vh;
@@ -46,6 +44,10 @@ p {
     width: 250px;
     padding: 15px;
     float: left;
+}
+
+footer .fixed-footer #footer-text {
+    text-align: center;
 }
 
 #portfolio-image-1, #portfolio-image-2, #portfolio-image-3 {

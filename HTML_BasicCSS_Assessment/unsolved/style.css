@@ -20,7 +20,7 @@ body {
   text-align: center;
   color: white;
   font-weight: bold;
-  font-size: 100px;
+  font-size: 90px;
 }
 
 #button {
@@ -31,9 +31,6 @@ body {
   border-color: white;
   margin-left: 45%;
   margin-right: 45%;
-
-
-
   padding: 5px;
 }
 

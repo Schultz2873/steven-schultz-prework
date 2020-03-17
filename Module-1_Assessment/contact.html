@@ -16,19 +16,22 @@
 </head>
 <body>
 <header>
-    <nav class="navbar">
-        <a class="navbar-brand" href="index.html">Steven Schultz</a>
-        <ul class="nav justify-content-end">
-            <li class="nav-item">
-                <a class="nav-link active" href="index.html">About Me</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-        </ul>
+    <nav class="navbar navbar-expand-md navbar-light bg-light mb-3">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand mr-3">Steven Schultz</a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+
+                <div class="navbar-nav ml-auto">
+
+                    <a href="index.html" class="nav-item nav-link">About Me</a>
+                    <a href="portfolio.html" class="nav-item nav-link">Portfolio</a>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                </div>
+            </div>
+        </div>
     </nav>
 </header>
 <br>
@@ -49,6 +52,14 @@
         <div class="col-1"></div>
     </div>
 </div>
+<footer class="fixed-footer">
+    <div class="row">
+        <div class="col-md-6">
+            <p>Copyright ©</p>
+        </div>
+
+    </div>
+</footer>
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->

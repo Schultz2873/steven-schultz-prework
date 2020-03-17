@@ -16,52 +16,71 @@
 </head>
 <body>
 <header>
-    <nav class="navbar">
-        <a class="navbar-brand" href="index.html">Steven Schultz</a>
-        <ul class="nav justify-content-end">
-            <li class="nav-item">
-                <a class="nav-link active" href="index.html">About Me</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-        </ul>
+    <nav class="navbar navbar-expand-md navbar-light bg-light mb-3">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand mr-3">Steven Schultz</a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+
+                <div class="navbar-nav ml-auto">
+                    <a href="index.html" class="nav-item nav-link">About Me</a>
+                    <a href="portfolio.html" class="nav-item nav-link">Portfolio</a>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                </div>
+            </div>
+        </div>
     </nav>
 </header>
-<br>
-
 <div class="container">
     <div class="row">
-        <div class="col-1"></div>
-        <div class="col-10">
+        <div class="col-sm-3 col-md-12 col-lg-12 col-xl-12">
             <div class="card">
                 <div class="card-body">
                     <h3 class="card-title">About Me</h3>
                     <hr>
                     <div class="container">
                         <p><img id="profile-pic" src="assets/images/profile_picture.jpg" alt="Profile Picture"
-                                class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus
-                            imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula
-                            venenatis dolor. Maecenas nisl est, ultrices nec congue eget, auctor vitae massa. Fusce
-                            luctus vestibulum augue ut aliquet. Mauris ante ligula, facilisis sed ornare eu, lobortis in
-                            odio. Praesent convallis urna a lacus interdum ut hendrerit risus congue. Nunc sagittis
-                            dictum nisi, sed ullamcorper ipsum dignissim ac. In at libero sed nunc venenatis imperdiet
-                            sed ornare turpis. Donec vitae dui eget tellus gravida venenatis. Integer fringilla congue
-                            eros non fermentum. Sed dapibus pulvinar nibh tempor porta. Cras ac leo purus. Mauris quis
-                            diam velit.</p>
+                                class="card-text">Hello! My name is Steven Schultz. I'm 24 years old and currently live
+                            in Homewood, Illinois. I grew up on the South Side suburbs of Chicago and went to Saint
+                            Laurence High School. While at Saint Laurence I was a member of the National Honor Society
+                            and also
+                            played baseball and football. After graduating from Saint Laurence I continued my football
+                            career over
+                            at Benedictine University where I majored in Computer Science.
+                        </p>
+                        <p>
+                            While I attended Benedictine I juggled two jobs along with being a full time student. One as
+                            a Life Cafe Supervisor at Lifetime Fitness and another as a DJ for Impulse Entertainment. I
+                            got into DJing when I was around 17 and it has been a huge passion of mine ever since.
+                        </p>
+                        <p>After I graduated college and became a washed up collegiate athlete I've been spending my
+                            free
+                            time traveling, playing 16inch softball and rugby during the summer, and working on side
+                            projects. One I've been working on building a web application for my DJ company that sends
+                            out
+                            automated text messages and emails to our clients. The other is a mobile application called
+                            Spot Me, which in short, is a social media platform that will allow users to find fitness
+                            classes or trainers that interest them and it allows trainers and fitness
+                            instructors to promote themselves and their classes.</p>
 
                     </div>
                 </div>
             </div>
         </div>
-        <div class="col-1"></div>
     </div>
+    <hr>
 
 </div>
+<footer class="fixed-footer">
+    <div class="row">
+        <div class="col-md-6">
+            <p>Copyright ©</p>
+        </div>
 
+    </div>
+</footer>
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->

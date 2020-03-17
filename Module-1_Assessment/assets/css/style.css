@@ -7,18 +7,17 @@ header {
     width: 100vw;
     background-color: #ffffff;
 }
-li{
-    list-style-type: none;
-    font-size: 2.5vh;
-    position: relative;
-    right: 75%;
-}
 
 a {
     color: black;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
 
 }
+
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;;
+}
+
 .navbar-brand {
     position: relative;
     left: 16%;
@@ -29,6 +28,9 @@ a {
     font-family: 'Georgia', Times, Times New Roman, serif;
     text-decoration: none;
 }
+
+
+
 
 .card-title {
     font-size: 5vh;
@@ -46,7 +48,7 @@ a {
     float: left;
 }
 
-#portfolio_image {
+#portfolio-image-1, #portfolio-image-2, #portfolio-image-3 {
     height: 250px;
     width: 250px;
     padding: 15px;
@@ -57,9 +59,55 @@ a {
 }
 
 .caption {
-    position: absolute;
-    top: 45%;
-    left: 0;
-    width: 100%;
+    width: 220px;
     background-color: #4aaaa5;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#portfolio-caption-1, #portfolio-caption-2, #portfolio-caption-3 {
+    color: white;
+    transform: translate(0%, 30%);
+
+
+}
+
+@media screen and (width: 768px) {
+    #portfolio-image-1, #portfolio-image-2, #portfolio-image-3 {
+        height: 200px;
+        width: 200px;
+        padding: 15px;
+    }
+    .caption {
+        width: 170px;
+        background-color: #4aaaa5;
+        position: absolute;
+        top: 75%;
+        left: 54%;
+        transform: translate(-50%, -50%);
+        font-size: 12px;
+    }
+}
+.fixed-footer {
+    bottom: 0;
+    background-color: #666666;
+}
+
+@media screen and (max-width: 320px) {
+    #portfolio-image-1, #portfolio-image-2, #portfolio-image-3 {
+        height: 200px;
+        width: 200px;
+        padding: 15px;
+    }
+    .caption {
+        width: 170px;
+        background-color: #4aaaa5;
+        position: absolute;
+        top: 75%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 12px;
+    }
 }

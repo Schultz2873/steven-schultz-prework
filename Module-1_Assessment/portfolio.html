@@ -16,45 +16,77 @@
 </head>
 <body>
 <header>
-    <nav class="navbar">
-        <a class="navbar-brand" href="index.html">Steven Schultz</a>
-        <ul class="nav justify-content-end">
-            <li class="nav-item">
-                <a class="nav-link active" href="index.html">About Me</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="contact.html">Contact</a>
-            </li>
-        </ul>
+    <nav class="navbar navbar-expand-md navbar-light bg-light mb-3">
+        <div class="container-fluid">
+            <a href="#" class="navbar-brand mr-3">Steven Schultz</a>
+            <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+
+                <div class="navbar-nav ml-auto">
+                    <a href="index.html" class="nav-item nav-link">About Me</a>
+                    <a href="portfolio.html" class="nav-item nav-link">Portfolio</a>
+                    <a href="contact.html" class="nav-item nav-link">Contact</a>
+                </div>
+            </div>
+        </div>
     </nav>
 </header>
 <br>
 <div class="container">
     <div class="row">
-        <div class="col-1"></div>
-        <div class="col-10">
+        <div class="col-sm-4 col-md-12 col-lg-12 col-xl-12">
             <div class="card">
                 <div class="card-body">
                     <h3 class="card-title">Portfolio</h3>
                     <hr>
-                    <div class="container">
-                        <div class="thumbnail text-center">
-                            <img id="portfolio_image" src="assets/images/profile_picture.jpg" alt="Profile Picture">
-                            <div class="caption">
-                                <p>Project 1</p>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="thumbnail text-center">
+                                    <img id="portfolio-image-1" src="assets/images/profile_picture.jpg"
+                                         alt="Profile Picture">
+                                    <div class="caption">
+                                        <p id="portfolio-caption-1">U-ListIt</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="thumbnail text-center">
+                                    <img id="portfolio-image-2"
+                                         src="assets/images/photo-of-brown-house-near-mountain-1424246.jpg"
+                                         alt="Profile Picture">
+                                    <div class="caption">
+                                        <p id="portfolio-caption-2">Automated Messaging</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 ">
+                                <div class="thumbnail text-center">
+                                    <img id="portfolio-image-3"
+                                         src="assets/images/white-and-brown-eagle-on-brown-tree-branch-3908080.jpg"
+                                         alt="Profile Picture">
+                                    <div class="caption">
+                                        <p id="portfolio-caption-3" >Spot Me</p>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="col-1"></div>
     </div>
+    <hr>
 </div>
-
+<footer class="fixed-footer">
+    <div class="row">
+        <div class="col-md-6">
+            <p>Copyright © </p>
+        </div>
+    </div>
+</footer>
 
 <!-- Optional JavaScript -->
 <!-- jQuery first, then Popper.js, then Bootstrap JS -->

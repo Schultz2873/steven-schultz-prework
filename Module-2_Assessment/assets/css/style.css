@@ -22,15 +22,27 @@ body {
 
 }
 
+
 #word, #word-title {
     font-size: 32px;
     text-align: center;
 }
+#word-title {
+    font-family: RW-creepsville;
+    font-size: 42px;
+    font-weight: 100;
+}
 
 #hint-title, #letter-guessed-title {
-    font-size: 24px;
+    font-family: RW-creepsville;
+    font-weight: 100;
     text-align: center;
+    color: black;
+    font-size: 35px;
+
 }
+
+
 #hint {
     text-align: center;
 }

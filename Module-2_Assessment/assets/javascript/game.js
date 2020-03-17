@@ -56,7 +56,7 @@ function keyPress(event) {
         }
 
 
-        if (guessCount > 0) {
+        if (guessCount > 1) {
             // If a user selects a word that is not in the mystery word then that letter is added
             // to the word guessed array and the guessCount is subtracted
             if (letterUsed == false && key >= "a" && key <= "z") {
@@ -112,7 +112,7 @@ function keyPress(event) {
                 document.getElementById("letters-guessed").innerHTML = lettersGuessed.toString();
             } else {
                 document.getElementById("win-count").innerHTML = String(win);
-                document.getElementById("word").innerHTML = "You guessed all the words! You win!"
+                document.getElementById("word").innerHTML = "You guessed all the words!"
                 gameOver = true
             }
 
